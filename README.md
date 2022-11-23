@@ -6,6 +6,8 @@ It works on any type of pickle, but was made with `torch` in mind.
 NOTE:
 torch == 1.13.0 breaks using custom unpicklers, see https://github.com/pytorch/pytorch/issues/88438
 until this is fixed, stick to 1.12.x or older.
+## Scanning pickles via filedrop (default scan only)
+Drag your file and drop it on PickleDrop.bat, it will run a default scan of the file and then leave the command window open for you to inspect.
 
 ## Scanning pickles via command line
 **tl;dr** just let me scan my pickles.
